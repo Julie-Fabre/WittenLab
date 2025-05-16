@@ -1,6 +1,6 @@
-% MATLAB script to visualize plasma histamine levels during test trials
-
-% Data from the study - ordered as specified (Baseline, CS-, First CS+, Second CS+)
+% Redoring plots if they only existed as tables in papers or if they were
+% ugly/not comprehensible
+%% Data from Russell et al 1984
 conditions = {'Baseline', 'CS-', 'First CS+', 'Second CS+'};
 means = [18.3, 49, 147.5, 54.2];
 sems = [4.9, 7.7, 28.7, 17.0];
@@ -75,10 +75,9 @@ box off;
 prettify_plot;
 
 
-%%
-% MATLAB script to recreate the TNF-α serum concentrations plot with correct groups and colors
+%% Data from Oberback et al., 2003
 
-% Define conditions and x-axis positions
+% Define conditions
 conditions = {'Baseline', 'Tolerance', 'Post Tolerance', 'Post Re-exposition'};
 x = 1:4;
 
