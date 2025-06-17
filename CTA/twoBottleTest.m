@@ -109,10 +109,11 @@ ylim([0, 120]);
 xticks(xPositions);
 xticklabels(uniqueGroups);
 ylabel('Preference (%)');
-title('Flavor Preference');
+%title('Flavor Preference');
 
 
 set(gca, 'FontSize', 12, 'LineWidth', 1.5, 'Box', 'on');
-grid on;
+grid off;
 hold off;
+box off;
 prettify_plot;
