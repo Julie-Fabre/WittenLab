@@ -126,7 +126,7 @@ def run_bombcell_for_session(session_info, animal_name):
         param['computeDistanceMetrics'] = False
         param['computeDrift'] = False
         param['saveAsTSV'] = True
-        param['plotGlobal'] = False
+        param['plotGlobal'] = True
         param['plotDetails'] = False
         param['nRawSpikesToExtract'] = 100
         
